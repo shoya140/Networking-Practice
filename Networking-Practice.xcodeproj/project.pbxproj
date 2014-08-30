@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07CE48D15EBE4798875EC468 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C84AA524C2D44999B9AC5A34 /* libPods.a */; };
 		C62D0B5619B19F2B00A2B0BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62D0B5519B19F2B00A2B0BC /* Foundation.framework */; };
 		C62D0B5819B19F2B00A2B0BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62D0B5719B19F2B00A2B0BC /* CoreGraphics.framework */; };
 		C62D0B5A19B19F2B00A2B0BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62D0B5919B19F2B00A2B0BC /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		C62D0B7719B19F2C00A2B0BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62D0B5919B19F2B00A2B0BC /* UIKit.framework */; };
 		C62D0B7F19B19F2C00A2B0BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C62D0B7D19B19F2C00A2B0BC /* InfoPlist.strings */; };
 		C62D0B8119B19F2C00A2B0BC /* Networking_PracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C62D0B8019B19F2C00A2B0BC /* Networking_PracticeTests.m */; };
+		C6CBF96B19B1ACB7001EA8FA /* DDXMLElement+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CBF96A19B1ACB7001EA8FA /* DDXMLElement+Dictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42CAA1466DBA47679B6ACA3E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		C62D0B5219B19F2B00A2B0BC /* Networking-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Networking-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62D0B5519B19F2B00A2B0BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C62D0B5719B19F2B00A2B0BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,9 @@
 		C62D0B7C19B19F2C00A2B0BC /* Networking-PracticeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Networking-PracticeTests-Info.plist"; sourceTree = "<group>"; };
 		C62D0B7E19B19F2C00A2B0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C62D0B8019B19F2C00A2B0BC /* Networking_PracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Networking_PracticeTests.m; sourceTree = "<group>"; };
+		C6CBF96919B1ACB7001EA8FA /* DDXMLElement+Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDXMLElement+Dictionary.h"; sourceTree = "<group>"; };
+		C6CBF96A19B1ACB7001EA8FA /* DDXMLElement+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DDXMLElement+Dictionary.m"; sourceTree = "<group>"; };
+		C84AA524C2D44999B9AC5A34 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 				C62D0B5819B19F2B00A2B0BC /* CoreGraphics.framework in Frameworks */,
 				C62D0B5A19B19F2B00A2B0BC /* UIKit.framework in Frameworks */,
 				C62D0B5619B19F2B00A2B0BC /* Foundation.framework in Frameworks */,
+				07CE48D15EBE4798875EC468 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +93,7 @@
 				C62D0B7A19B19F2C00A2B0BC /* Networking-PracticeTests */,
 				C62D0B5419B19F2B00A2B0BC /* Frameworks */,
 				C62D0B5319B19F2B00A2B0BC /* Products */,
+				42CAA1466DBA47679B6ACA3E /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +113,7 @@
 				C62D0B5719B19F2B00A2B0BC /* CoreGraphics.framework */,
 				C62D0B5919B19F2B00A2B0BC /* UIKit.framework */,
 				C62D0B7419B19F2C00A2B0BC /* XCTest.framework */,
+				C84AA524C2D44999B9AC5A34 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,6 +127,7 @@
 				C62D0B6A19B19F2B00A2B0BC /* ViewController.h */,
 				C62D0B6B19B19F2B00A2B0BC /* ViewController.m */,
 				C62D0B6D19B19F2B00A2B0BC /* Images.xcassets */,
+				C6CBF96C19B1B0C1001EA8FA /* Model */,
 				C62D0B5C19B19F2B00A2B0BC /* Supporting Files */,
 			);
 			path = "Networking-Practice";
@@ -152,6 +162,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C6CBF96C19B1B0C1001EA8FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6CBF96919B1ACB7001EA8FA /* DDXMLElement+Dictionary.h */,
+				C6CBF96A19B1ACB7001EA8FA /* DDXMLElement+Dictionary.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C62D0B8419B19F2C00A2B0BC /* Build configuration list for PBXNativeTarget "Networking-Practice" */;
 			buildPhases = (
+				96D1156C30B445B3B17312C4 /* Check Pods Manifest.lock */,
 				C62D0B4E19B19F2B00A2B0BC /* Sources */,
 				C62D0B4F19B19F2B00A2B0BC /* Frameworks */,
 				C62D0B5019B19F2B00A2B0BC /* Resources */,
+				6B4C4B6A4B654F49B94D1623 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,11 +265,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B4C4B6A4B654F49B94D1623 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D1156C30B445B3B17312C4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C62D0B4E19B19F2B00A2B0BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6CBF96B19B1ACB7001EA8FA /* DDXMLElement+Dictionary.m in Sources */,
 				C62D0B6C19B19F2B00A2B0BC /* ViewController.m in Sources */,
 				C62D0B6619B19F2B00A2B0BC /* AppDelegate.m in Sources */,
 				C62D0B6219B19F2B00A2B0BC /* main.m in Sources */,
@@ -373,6 +428,7 @@
 		};
 		C62D0B8519B19F2C00A2B0BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CAA1466DBA47679B6ACA3E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +442,7 @@
 		};
 		C62D0B8619B19F2C00A2B0BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CAA1466DBA47679B6ACA3E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +513,7 @@
 				C62D0B8619B19F2C00A2B0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C62D0B8719B19F2C00A2B0BC /* Build configuration list for PBXNativeTarget "Networking-PracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +522,7 @@
 				C62D0B8919B19F2C00A2B0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
